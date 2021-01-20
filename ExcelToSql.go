@@ -41,8 +41,8 @@ func main() {
 		displayTextScript = append(displayTextScript, displayText)
 		dictItemScript = append(dictItemScript, dictItem)
 	}
-	createOrUpdateFile(displayTextScript, "displayText.sql")
-	createOrUpdateFile(dictItemScript, "dictItem.sql")
+	createOrUpdateFile(displayTextScript, *dictCode+"DisplayText.sql")
+	createOrUpdateFile(dictItemScript, *dictCode+"DictItem.sql")
 }
 
 func createOrUpdateFile(texts []string, fileName string) {
