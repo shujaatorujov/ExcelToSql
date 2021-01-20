@@ -41,7 +41,6 @@ func main() {
 		displayTextScript = append(displayTextScript, displayText)
 		dictItemScript = append(dictItemScript, dictItem)
 	}
-	//fmt.Println(displayTextScript)
 	createOrUpdateFile(displayTextScript, "displayText.sql")
 	createOrUpdateFile(dictItemScript, "dictItem.sql")
 }
