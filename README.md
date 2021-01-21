@@ -1,0 +1,8 @@
+Bu proqramı istifadə etmək üçün aşağıdakıları etmək lazımdır:
+
+1. İlk öncə Go proqramını download və install edirik. Download üçün link https://golang.org/doc/install
+  
+2. Daha sonra build edirik: go build ExcelToSql.go
+
+3. Daha sonra aşağıdakı komandanı yerinə yetiririk:
+    ExcelToSql.exe -f=fileName -dn=dictName -dc=dictCode
