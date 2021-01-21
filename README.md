@@ -5,7 +5,7 @@ Bu proqramı istifadə etmək üçün aşağıdakıları etmək lazımdır:
 2. Daha sonra build edirik: go build ExcelToSql.go
 
 3. Daha sonra aşağıdakı komandanı yerinə yetiririk:
-$ ExcelToSql.exe -f=<fileName> -dn=<dictName> -dc=<dictCode>
+$ ExcelToSql.exe -f="fileName" -dn="dictName" -dc="dictCode"
 Burada -f file path-i,-dn dictionary-nin adını, -dc dictionary code-nu bildirir.
 Example: ExcelToSql.exe -f=message-type.xlsx -dn=ediDict -dc=messageType
     
