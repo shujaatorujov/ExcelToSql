@@ -7,4 +7,4 @@ Bu proqramı istifadə etmək üçün aşağıdakıları etmək lazımdır:
 3. Daha sonra aşağıdakı komandanı yerinə yetiririk:
     ExcelToSql.exe -f=fileName -dn=dictName -dc=dictCode
     
-4. Əgər istərsəniz ExcelToSql.exe faylının path-ini Environment Variables-e əlavə edərəl istənilən yerdə istifadə edə bilərsiniz.
+4. Əgər istərsəniz ExcelToSql.exe faylının path-ini Environment Variables-e əlavə edərək istənilən yerdə istifadə edə bilərsiniz.
