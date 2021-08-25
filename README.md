@@ -13,3 +13,5 @@ Dictionaryler arasinda elaqe varsa qeyd edilme ardicilligi parentden child-a dog
 Example: ExcelToSql.exe -dc dictCode -dn dictName -f parentfile -dc dictCode1 -dn dictname1 -f childFile
     
 4. Əgər istərsəniz ExcelToSql.exe faylının path-ini Environment Variables-e əlavə edərək istənilən yerdə istifadə edə bilərsiniz.
+
+Ve ya ExcelToSql.exe faylini birbasa istifade ede bilersiniz.
