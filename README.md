@@ -9,6 +9,7 @@ $ ExcelToSql.exe -f="fileName" -dn="dictName" -dc="dictCode"
 Burada -f file path-i,-dn dictionary-nin adını, -dc dictionary code-nu bildirir.
 Example: ExcelToSql.exe -f=message-type.xlsx -dn=ediDict -dc=messageType. 
 Bir nece fayl, dictionary name ve dictionary code-da mumkundur. 
-Dictionaryler arasinda elaqe varsa qeyd edilme ardicilligi parentden child-a dogru olmalidir
+Dictionaryler arasinda elaqe varsa qeyd edilme ardicilligi parentden child-a dogru olmalidir.
+Example: ExcelToSql.exe -dc dictCode -dn dictName -f parentfile -dc dictCode1 -dn dictname1 -f childFile
     
 4. Əgər istərsəniz ExcelToSql.exe faylının path-ini Environment Variables-e əlavə edərək istənilən yerdə istifadə edə bilərsiniz.
